@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Networks</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 30px;
+    background: #1CA7DF;
+    font-size:20px;
+    margin: 10px;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    background-image: url(images/next-pages/single-blog-bg-img.jpg);
+
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    padding: 20px;
+    background-image: url(images/next-pages/networks.jpg);
+}
+
+/* Add a card effect for articles */
+.card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+
+    text-align: center;
+
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2><i>Difference Between LAN, WAN, MAN, CAN, VPN, BAN, NAN, SAN?</i></h2>
+</div>
+
+<div class="row">
+    <div class="card">
+      <h2>Every Wondered what types of Networks Available and Differences</h2>
+      <h5>Title description, Aug 27, 2018</h5>
+      <div class="fakeimg" style="height:500px;">
+      </div>
+
+      <p>Ever imagined computers having friends, they can talk to each other or get connected to each other.
+umm, not exactly but yah computer can be connected to each other with something called networking.
+so, What is this networking??<br>
+Computer networking is the practice of interfacing two or more computing devices with each other for the purpose of sharing data. Computer networks are built with a combination of hardware and software.
+We can classify a computer network into different types depending on its size and the geographical area it covers. The most common types of computer networks are LAN, MAN, WAN, PAN, etc.<br>
+<b>-> LOCAL AREA NETWORK or simply LAN:</b> LAN is a form of a computer network most known to the general public. It has a limited reach, roughly a bunch of closely situated houses or building. And that’s because we typically use the Ethernet technology (IEEE 802.3) to power our local area networks. The ethernet cables we lay across our houses and offices have their practical limitations. Beyond a certain length, the speed gets degraded. The reach of a LAN can be enhanced using repeaters, bridges, etc.<br>
+<b>-> METROPOLITAN AREA NETWORK or simply MAN:</b> The area covered by a MAN is quite larger in comparison to a LAN and CAN. In fact, a MAN can be used to link several LANs spread across a city or a metro area.<br>
+<b>-> WIDE AREA NETWORK or simply WAN:</b> We can think of a WAN as the superset of all the small networks we find in our homes, offices, cities, states, and countries. The router or modem placed at your home is a device used to connect to the WAN. The internet is also a type WAN that spans across the entire earth.Various technologies like ADSL, 4G LTE, Fiber optic, cable, etc. are used to connect to the internet. However, these technologies mostly confined to a country at max. Cables are laid across countries and continents to establish global connectivity.<br>
+<b>-> HOME AREA NETWORK or simply HAN:</b>  A kind of local area network is the HAN (Home Area Network). All the devices like smartphones, computers, IoT devices, televisions, gaming consoles, etc. connect to a central router (wired or wireless) placed in a home constitute a home area network.<br>
+<b>-> WIRELESS LAN or simply WLAN:</b>
+This type of computer network is a wireless counterpart of the local area network. It uses the WiFi technology defined as per the IEEE 802.11 standards. If you’re the one who thinks WiFi and WLAN are the same things, then you need to rectify your confusion. They are completely different. WiFi is used to create a wireless local area network.WiFi networks can reach up to a few hundred meters in a clear line of sight. However, just like wired LAN, its range can be increased using wireless repeaters and bridges.<br>
+<b>-> PERSONAL AREA NETWORK or PAN: </b> As the name suggests, a personal area network is intended for personal use within a range of a few ten meters. Mainly, the technologies used for creating personal area networks are wireless. A notable example of WPAN is the Bluetooth technology, mostly found on portable devices like smartphones, laptops, tablets, wearables, etc. Other PAN technologies are Zigbee, Wireless USB, etc.<br>
+<b>-> CAMPUS AREA NETWORK or CAN: </b>A network infrastructure covering the school, university, or corporate premises can be dubbed as campus area network. It can comprise of several LANs, a central firewall, and connected to the internet using a leased line or any other means.<br>
+<b>-> BODY AREA NETWORK OR BAN:</b>
+You can create a body area network by using wearable devices like smartwatches, fitness bands, biometric RFID implants, and medical devices placed inside the body like pacemakers. A wireless BAN is the primary form used to create such networks. It is defined as per the IEEE 802.15.6 standard which describes a short-range, extremely low power wireless communication within or in a vicinity of the human body. A wireless BAN can work together with PAN technologies. For instance, a Bluetooth-connected smartphone can be used to sync data from wearables and various sensors present in the body.<br>
+<b>-> NEAR-ME-NETWORK or NAN:</b>
+Although it sounds totally unfamiliar, you use Near-me network almost every day. Remember chatting with your friends on Facebook while all of you were sitting in the same room. You were part of a NAN, even though you might be on the networks of different Providers. A message from your device would traverse all the way to Facebook servers over the internet come to your friend’s device sitting right next to you. In a logical way, both the device are on some sort of network. Basically, the criteria for the devices is to lie in proximity. They don’t need to be connected to the same network. For instance, they can be connected via WiFi, cellular, etc.<br>
+<b>-> VIRTUAL PRIVATE NETWORK or VPN:</b> A virtual private network (VPN) is a technology that creates a safe and encrypted connection over a less secure network, such as the internet. VPN technology was developed as a way to allow remote users and branch offices to securely access corporate applications and other resources. To ensure safety, data travels through secure tunnels and VPN users must use authentication methods -- including passwords, tokens and other unique identification methods -- to gain access to the VPN.<br>
+</p>
+    </div>
+
+  </div>
+
+
+<div class="footer">
+  <div class="copyright">
+  <p>Copyright © 2018. Tech Andromeda. All rights reserved.</p>
+  </div>
+</div>
+
+</body>
+</html>
